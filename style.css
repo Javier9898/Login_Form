@@ -1,0 +1,156 @@
+body {
+    /*background image*/
+    /* Location of the image */
+    background-image: url(bgImg.jpg);
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+    /* background image*/
+
+    font-family: Poppins;
+  }
+
+  .wrapper{
+      width: 400px;
+      height: 420px;
+      color: #000;
+      top: 50%;
+      left: 50%;
+      padding: 60px 30px;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.541);
+      backdrop-filter: blur(5px);
+      border-radius: 23px;
+  }
+
+  h1{
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+      font-size: 22px;
+      color: #a3b5f0;
+      text-align: center;
+      margin-bottom: 8%;
+      font-family: Lucida Handwriting;
+      /*flf*/
+  }
+
+  .wrapper input{
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .wrapper input[type=text], .wrapper input[type=password]{
+      border:none;
+      border-bottom: 1px solid rgb(215, 231, 241);
+      background: transparent;
+      outline: none;
+      height: 30px;
+      font-size: 16px;
+      opacity: 1;
+      color: #000000;
+  }
+
+  .wrapper button[type=submit]{
+      width: 70%;
+      display: block;
+      margin: auto;
+      border: none;
+      outline: none;
+      height: 40px;
+      border-radius: 5px;
+      background: #f6648b;
+      color: rgb(255, 255, 255);
+      position: relative;
+      font-size: 14px;
+      font-weight: bold;
+      transition: all .3s ease;
+      cursor: pointer;
+  }
+
+  .wrapper button[type=submit]:hover{
+      
+      letter-spacing: 3px;
+      color: rgb(255, 255, 255);
+      background: rgb(201, 42, 108);
+  }
+
+  .wrapper a{
+      font-size: 14px;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      opacity: 0.8;
+  }
+
+  .wrapper a:hover{
+      color: rgb(0, 0, 0);
+      opacity: 1;
+  }
+
+  .bottom-text{
+    margin-top: 5%;
+  }
+
+  .bottom-text input{
+      width: 10%;
+      float: left;
+  }
+
+  .bottom-text a{
+    float: right;
+  }
+
+  .socials{
+    margin-top: 12%;
+    text-align: center;
+  }
+
+  .socials a{
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 50%;
+      margin: 0 15px;
+  }
+
+  .socials a:nth-child(1){
+      background: #3b5998;
+  }
+  .socials a:nth-child(2){
+    background: #55acee;
+  }
+  .socials a:nth-child(3){
+    background: #bd081c;
+  }
+  .socials a:nth-child(4){
+    background: #0077b5;
+  }
+
+  .socials a i{
+      padding: 8px 0;
+  }
+
+  .credits{
+      color: rgb(52, 128, 199);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
